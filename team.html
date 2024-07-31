@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đội ngũ sản xuất Merci</title>
+    <style>
+        /* General Styles */
+        /* General Styles */
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f5a5c6;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e91e63;
+}
+
+header .logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    position: relative;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e91e63;
+}
+
+nav ul li:hover > .submenu {
+    display: block;
+}
+
+nav ul .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f5a5c6;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav ul .submenu li {
+    margin: 0;
+}
+
+nav ul .submenu li a {
+    padding: 10px 20px;
+    display: block;
+    white-space: nowrap;
+}
+
+nav ul .submenu li a:hover {
+    background-color: #e91e63;
+}
+
+.team {
+    padding: 50px 0;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.team h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #e91e63;
+}
+
+/* Grid layout for team members */
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.team-member img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.member-info {
+    padding: 20px;
+}
+
+.member-info h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #e91e63;
+    font-size: 24px;
+}
+
+.member-info p {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #f5a5c6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #e91e63;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="Images/z5665290587881_8d511ef44b2e44a23e00274fec5445de.jpg" alt="MERCI"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home page</a></li>
+                    <li>
+                        <a href="#">Introduce</a>
+                        <ul class="submenu">
+                            <li><a href="brand.html">About the Merci brand</a></li>
+                            <li><a href="team.html">Production team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="cart.html" class="cart"><img src="https://img.icons8.com/material-outlined/24/ffffff/shopping-cart--v1.png" alt="Giỏ hàng"> Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="team">
+        <div class="container">
+            <h1>Merci brand production team</h1>
+            <div class="team-member">
+                <img src="Images/z5683925435853_654d0c6e5b873ab1fb9e1bae4610f4b7.jpg" alt="Cao Văn Minh">
+                <div class="member-info">
+                    <h2>Cao Van Minh – CEO & Founder</h2>
+                    <p>As the soul and leader of Merci, Cao Van Minh is not only a talented founder but also a leader with strategic vision. With many years of experience in the fashion industry, Minh has given Merci a clear and sustainable direction. He always strives to find new trends, combining art and commerce to create unique business strategies. Under Minh's leadership, Merci not only developed strongly but also affirmed its position in the hearts of customers.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Images/z5667380799544_72bfd33eb59df253e43b98e866ef4737.jpg" alt="Trần Diệu Linh">
+                <div class="member-info">
+                    <h2>Tran Dieu Linh – Creative Director</h2>
+                    <p>Tran Dieu Linh is the inspiration and creative heart of Merci. With a strong passion for fashion and art, Linh has brought to Merci unique, sophisticated and stylish fashion collections. She constantly explores and creates, bringing designs that are not only beautiful but also clearly reflect the personality and spirit of modern women. Linh always strives to make each Merci product a work of art, bringing spiritual value and confidence to the wearer.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Images/Thương.jpg" alt="Trương Hoài Thương">
+                <div class="member-info">
+                    <h2>Truong Hoai Thuong – Marketing Director</h2>
+                    <p>With extensive experience in the field of marketing and communications, Truong Hoai Thuong has helped Merci build and develop a strong brand image. Thuong is the person behind creative and effective marketing strategies, helping Merci reach and conquer more customers. She is always looking for new ways to promote the brand, build close relationships with customers and enhance the value of the Merci brand in the fashion market.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Images/Triệu.jpg" alt="Phí Quốc Triệu">
+                <div class="member-info">
+                    <h2>Phi Quoc Trieu – Chief Financial Officer</h2>
+                    <p>Phi Quoc Trieu is responsible for financial management and ensuring financial stability for Merci. With solid knowledge and long experience in the financial sector, Trieu always ensures that every business decision is supported by detailed and effective financial plans. He plays an important role in maintaining Merci's balance and sustainable development, helping the brand not only grow strongly but also be financially sustainable.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Images/Mạnh.jpg" alt="Nguyễn Thế Mạnh">
+                <div class="member-info">
+                    <h2>Nguyen The Manh – Production Director</h2>
+                    <p>Nguyen The Manh is the person who supervises the entire production process and ensures product quality of Merci. With rich experience in the manufacturing industry and supply chain management, Manh ensures that each Merci product meets the highest standards of quality and is produced sustainably. He is always looking for new ways to improve production processes, ensure efficiency and minimize environmental impact. Manh not only ensures perfection in each product but also contributes to Merci's sustainable development.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Merci. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

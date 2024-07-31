@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Về thương hiệu Merci</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #f5a5c6;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #e91e63;
+        }
+
+        header .logo {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        header .logo img {
+            height: 50px;
+        }
+
+        header nav {
+            flex: 2;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li {
+            position: relative;
+            margin-left: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #e91e63;
+        }
+
+        nav ul li:hover > .submenu {
+            display: block;
+        }
+
+        nav ul .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f5a5c6;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav ul .submenu li {
+            margin: 0;
+        }
+
+        nav ul .submenu li a {
+            padding: 10px 20px;
+            display: block;
+            white-space: nowrap;
+        }
+
+        nav ul .submenu li a:hover {
+            background-color: #e91e63;
+        }
+
+        .about {
+            padding: 50px 0;
+            background-color: white;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .about h1, .about h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #e91e63;
+        }
+
+        .about p {
+            text-align: justify;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .about img {
+            display: block;
+            margin: 20px auto;
+            max-width: 40%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #f5a5c6;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-top: 2px solid #e91e63;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="Images/z5665290587881_8d511ef44b2e44a23e00274fec5445de.jpg" alt="MERCI"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home page</a></li>
+                    <li>
+                        <a href="#">Introduce</a>
+                        <ul class="submenu">
+                            <li><a href="brand.html">About the Merci brand</a></li>
+                            <li><a href="team.html">Production team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="cart.html" class="cart"><img src="https://img.icons8.com/material-outlined/24/ffffff/shopping-cart--v1.png" alt="Giỏ hàng"> Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="about">
+        <div class="container">
+            <h1>Welcome to Merci</h1>
+            <img src="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/nam-moi-2024/18052024/1000x1253.png" alt="Merci Fashion">
+            <p>Welcome to Merci - where fashion is not just about clothes, but also a story of style, personality and passion. Founded with a strong love and passion for fashion, Merci is proud to bring sophisticated, luxurious and feminine designs exclusively to women.</p>
+            <p>At Merci, we understand that every woman is a unique individual with unique beauty. Therefore, we always strive to be creative to bring diverse collections, from elegant daily and office outfits to gorgeous evening dresses, helping you shine in every moment of your life. living.</p>
+            <img src="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/nam-moi-2024/18052024/1000x910.png" alt="Fashion Design">
+            <p>High quality materials, sophisticated designs and meticulousness in every stitch are the core values ​​that we always focus on. We cooperate with reputable fabric suppliers, use advanced sewing technology and a team of skilled tailors to ensure that each Merci product is not only beautiful but also comfortable and durable.</p>
+            <img src="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/nam-moi-2024/18052024/1000x1333.png" alt="Elegant Dress">
+            <p>Merci doesn't just stop at creating beautiful outfits. We also want to convey a message about the confidence, strength and power of modern women. Each of our designs is inspired by the beauty and pride of women, helping you not only look more beautiful but also feel more confident when wearing Merci's outfits.</p>
+            <p>We believe that fashion is a journey of self-discovery and expression of personal style. Let Merci accompany you on this journey, helping you shine in your own way. Thank you for choosing Merci - where style and passion meet. Join us in writing inspiring and impressive fashion stories!</p>
+            
+            <h2>Vision</h2>
+            <p>Merci aims to become the leading women's fashion icon in Vietnam and reach out to the world, where women find perfection in each design. We wish to build a brand that not only brings external beauty but also honors the spiritual value and inner confidence of each woman, helping them shine and be confident in all aspects of life.</p>
+            
+            <h2>Mission</h2>
+            <p>Merci's mission is to create and provide high-end fashion apparel that is highly functional and reflects the unique personality of each customer. We are committed to bringing perfection in every detail, from materials, design to customer service. Merci constantly innovates to become a trusted companion, helping women confidently express themselves, asserting their own style and class.</p>
+        </div>
+        </div>
+    </main>
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Merci. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

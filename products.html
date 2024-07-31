@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERCI - Our products</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="Images/z5665290587881_8d511ef44b2e44a23e00274fec5445de.jpg" alt="MERCI"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home page</a></li>
+                    <li>
+                        <a href="#">Introduce</a>
+                        <ul class="submenu">
+                            <li><a href="brand.html">About the Merci brand</a></li>
+                            <li><a href="team.html">Production team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="cart.html" class="cart"><img src="https://img.icons8.com/material-outlined/24/ffffff/shopping-cart--v1.png" alt="Giỏ hàng">Cart</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2>OUTLET SALE</h2>
+            <div class="product-list">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/67_50626651c3f74a08869404987beafc5f_master.png" alt="Product 1">
+                    <h3>Seni pants</h3>
+                    <p>Price: 695,000 VND</p>
+                    <label for="size1">Size:</label>
+                    <select id="size1">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Quần dài Seni', 695000 , document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/67_50626651c3f74a08869404987beafc5f_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 2 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/21_faf0d28f554f4507b55b9ef3ba0d8249_master.png" alt="Product 2">
+                    <h3>Taly Set</h3>
+                    <p>Price: 716,000 VND</p>
+                    <label for="size2">Size:</label>
+                    <select id="size2">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Taly Set', 716000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/21_faf0d28f554f4507b55b9ef3ba0d8249_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 3 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/2_a1028783af794493b58d33c473bcca21_master.png" alt="Product 3">
+                    <h3>Lerin Set</h3>
+                    <p>Price: 599,000 VND</p>
+                    <label for="size3">Size:</label>
+                    <select id="size3">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Lerin Set', 599000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/2_a1028783af794493b58d33c473bcca21_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 4 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/6_dd2d2a8091274e32b93742ed334ff446_master.png" alt="Product 4">
+                    <h3>Tini short dress
+                    </h3>
+                    <p>Price: 699,000 VND</p>
+                    <label for="size4">Size:</label>
+                    <select id="size4">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Đầm Ngắn Tini', 799000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/6_dd2d2a8091274e32b93742ed334ff446_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 5 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/dsc_7882_a41b20a6e2344e09a02c4f9a711f09f4_master.png" alt="Product 5">
+                    <h3>Kristy Set</h3>
+                    <p>Price: 560,000 VND</p>
+                    <label for="size5">Size:</label>
+                    <select id="size5">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Kristy Set', 560000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/dsc_7882_a41b20a6e2344e09a02c4f9a711f09f4_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 6 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/33_994953a5b53e4b9d827a1d5f2dd1179f_master.png" alt="Product 6">
+                    <h3>Mymy long dress</h3>
+                    <p>Price: 636,000 VND</p>
+                    <label for="size6">Size:</label>
+                    <select id="size6">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Đầm dài Mymy', 636000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/33_994953a5b53e4b9d827a1d5f2dd1179f_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 7 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/38_02b738454f8641c1bb89807d075284c4_master.png" alt="Product 7">
+                    <h3>Elley-style fantasy</h3>
+                    <p>Price: 320,000 VND</p>
+                    <label for="size7">Size:</label>
+                    <select id="size7">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Áo kiểu Elley', 320000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/38_02b738454f8641c1bb89807d075284c4_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 8 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/20_e3f96157b9b14828ab0ccb4d98dc55f1_master.png" alt="Product 8">
+                    <h3>Gami Long Dress</h3>
+                    <p>Price: 1,099,000 VND</p>
+                    <label for="size8">Size:</label>
+                    <select id="size8">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Đầm Dài Gami', 1099000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/20_e3f96157b9b14828ab0ccb4d98dc55f1_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 9 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/50_d80d58c3c5fd4a16856ae92d96a76f90_master.png" alt="Product 9">
+                    <h3>Lacey short dress</h3>
+                    <p>Price: 550,000 VND</p>
+                    <label for="size9">Size:</label>
+                    <select id="size9">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Đầm ngắn Lacey', 550000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/50_d80d58c3c5fd4a16856ae92d96a76f90_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 10 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/35_50ccd92c2dc74f08962a6b718da974ac_master.png" alt="Product 10">
+                    <h3>Herin long dress
+                    </h3>
+                    <p>Price: 580,000 VND</p>
+                    <label for="size10">Size:</label>
+                    <select id="size10">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Đầm dài Herin', 580000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/35_50ccd92c2dc74f08962a6b718da974ac_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 11 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/6-min_23a6132e06f14a498562f76abf624c29_master.png" alt="Product 11">
+                    <h3>Juliet Long Dress</h3>
+                    <p>Price: 399,000 VND</p>
+                    <label for="size11">Size:</label>
+                    <select id="size11">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Đầm Dài Juliet', 399000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/6-min_23a6132e06f14a498562f76abf624c29_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 12 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/3_64453bed7082434d9fed1a39b26ce937_master.png" alt="Product 12">
+                    <h3>Zahra style blouse</h3>
+                    <p>Price: 499,000 VND</p>
+                    <label for="size12">Size:</label>
+                    <select id="size12">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Áo Kiểu Zahra', 499000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/3_64453bed7082434d9fed1a39b26ce937_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 13 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/2_a3b0e1607c944197b98ec614f62222ad_master.png" alt="Product 13">
+                    <h3>Cecilia short dress</h3>
+                    <p>Price: 409,000 VND</p>
+                    <label for="size13">Size:</label>
+                    <select id="size13">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Đầm Ngắn Cecilia', 409000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/2_a3b0e1607c944197b98ec614f62222ad_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 14 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/karie_1_7b2bff7db23943ecb9d9a52f3fc88360_master.jpg" alt="Product 14">
+                    <h3>Karie style blouse</h3>
+                    <p>Price: 385,000 VND</p>
+                    <label for="size14">Size:</label>
+                    <select id="size14">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Áo Kiểu Karie', 385000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/karie_1_7b2bff7db23943ecb9d9a52f3fc88360_master.jpg')">Add to cart</button>
+                </div>
+                <!-- Product 15 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/artboard_1_0bf840de93f8442ea99c021415266b09_master.png" alt="Product 15">
+                    <h3>Line Short Pants</h3>
+                    <p>Price: 259,000 VND</p>
+                    <label for="size15">Size:</label>
+                    <select id="size15">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Quần Ngắn Line', 259000, document.getElementById('size1').value, 'https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/DE07007/1-XANH-DE07007.png')">Add to cart</button>
+                </div>
+                <!-- Product 16 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/canon_1314_copy_2_1fbc3de060514cfba706c3e6d01aa8f9_master.jpg" alt="Product 16">
+                    <h3>Cindy jacket</h3>
+                    <p>Price: 525,000 VND</p>
+                    <label for="size16">Size:</label>
+                    <select id="size16">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Áo khoác Cindy', 525000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/canon_1314_copy_2_1fbc3de060514cfba706c3e6d01aa8f9_master.jpg')">Add to cart</button>
+                </div>
+                <!-- Product 17 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/3_1ce30d0839a64625bcbeefea0710aa00_master.png" alt="Product 17">
+                    <h3>Set Camell</h3>
+                    <p>Price: 1,999,000 VND</p>
+                    <label for="size17">Size:</label>
+                    <select id="size17">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Set Camell', 799000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/3_1ce30d0839a64625bcbeefea0710aa00_master.png')">Add to cart</button>
+                </div>
+                <!-- Product 18 -->
+                <div class="product">
+                    <img src="https://product.hstatic.net/200000284249/product/41_fef78b71bda8456685bc4cd5b8bdf523_master.png" alt="Product 18">
+                    <h3>Helin Short Dress</h3>
+                    <p>Price: 452,000 VND</p>
+                    <label for="size18">Size:</label>
+                    <select id="size18">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <button class="btn add-to-cart" onclick="addToCart('Đầm Ngắn Helin', 452000, document.getElementById('size1').value, 'https://product.hstatic.net/200000284249/product/41_fef78b71bda8456685bc4cd5b8bdf523_master.png')">Add to cart</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="products.js"></script>
+</body>
+</html>
